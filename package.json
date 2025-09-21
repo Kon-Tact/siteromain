@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:romapp": "node dist/romapp/server/server.mjs"
+    "build:ssr": "ng build",
+    "serve:ssr": "node dist/romapp/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,
